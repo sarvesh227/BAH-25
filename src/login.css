@@ -1,0 +1,71 @@
+/* File: src/Login.css */
+
+.login-container {
+    position: relative;
+  height: 100vh;
+  width: 100vw;
+  
+  background-size: cover;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.login-form {
+    position: relative;
+    z-index: 2;
+  background: rgba(102, 119, 121, 0.9);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  opacity: 0.7;
+}
+
+.login-form input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+ 
+}
+
+.login-form button {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+
+}
+
+.login-form button:hover {
+  background-color: #304ffe;
+  
+}
+.bg-video {
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+#hed{
+    position: relative;
+    z-index: 2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+}

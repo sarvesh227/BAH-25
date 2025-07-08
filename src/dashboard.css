@@ -1,0 +1,75 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('D:\DEV\REACT\BAH\react-leaflet-app\src\assets\maps.png'); /* ✅ Update path if needed */
+  background-size: cover;         /* makes it fit the screen */
+  background-position: center;    /* centers the image */
+  background-repeat: no-repeat;
+}
+
+.dashboard-header {
+  background-color: #75fa84;
+  color: white;
+  font-size: larger;
+  padding: 1rem;
+  text-align: center;
+}
+
+.dashboard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.dropdown-container {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.dropdown-container select {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.dashboard-footer {
+  text-align: center;
+  
+  padding: 1rem;
+  background-color: #e5e7eb;
+}
+#abc{
+  background: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
